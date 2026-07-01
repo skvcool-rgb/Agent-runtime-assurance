@@ -22,6 +22,8 @@ When an AI agent can take a **consequential action**, that action MUST pass thro
 
 Full normative text, mappings to **NIST AI RMF / OWASP Agentic Top-10 2026 / ISO/IEC 42001 / EU AI Act**, conformance evidence, and rationale: **[`ARA-control-family.md`](ARA-control-family.md)**.
 
+**CSA AICM crosswalk:** ARA mapped control-by-control onto CSA's **AI Controls Matrix (AICM v1)** — showing where ARA supplies the deterministic, verifiable *how* for the AICM's agentic controls (`AIS-11` Agents Security Boundaries, `IAM-19` Agent Access Restriction, `TVM-11` Guardrails, `AIS-15` Prompt Differentiation, …): **[`ARA-AICM-crosswalk.md`](ARA-AICM-crosswalk.md)**.
+
 ## Why it's credible, not novel-risk
 Run-Time Assurance is a **certified safety paradigm in aviation** (ASTM F3269; NASA/Skoog lineage; used to bound neural autopilots) — a simple *verified* monitor bounding a complex *opaque* controller with override authority. ARA ports that exact structure to software agents and, by extension, embodied/robotic systems. Trust in an ARA-4 certificate comes from **verifiability** (a reproducible signed proof bound to a policy hash — re-verifiable by anyone), not from a logo.
 

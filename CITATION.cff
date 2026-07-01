@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Agent Runtime Assurance (ARA) Control Family"
+message: "If you reference this work, please cite it as below."
+authors:
+  - name: "Amworkplace Ltd (BoundaryAI)"
+version: "0.1-draft"
+date-released: "2026-06-28"
+license: CC-BY-4.0
+url: "https://github.com/skvcool-rgb/agent-runtime-assurance"
+repository-code: "https://github.com/skvcool-rgb/agent-runtime-assurance"
+abstract: >-
+  A vendor-neutral control family (ARA-1 through ARA-8) for deterministic,
+  tamper-evident, independently-verifiable runtime assurance of AI agents. The
+  software-agent port of aviation Run-Time Assurance (RTA / ASTM F3269), proposed as
+  a contribution to the NIST AI Agent Standards Initiative (CAISI), the OWASP GenAI
+  Agentic Security Initiative, and ISO/IEC JTC1 SC42.
+keywords:
+  - AI agents
+  - runtime assurance
+  - agentic security
+  - AI governance
+  - prompt injection
+  - NIST AI RMF
+  - OWASP
+  - ISO 42001
